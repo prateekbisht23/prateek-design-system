@@ -4,7 +4,7 @@ My personal design system. One narrow column, light Geist type, hairlines instea
 
 Use it for every personal project — portfolio, side projects, docs — so they all look like they came from the same person.
 
-**Web view:** `https://<your-username>.github.io/prateek-design-system/` — every token, every component live with controls, a theme switch and a sample home page.
+**Web view:** `https://prateekbisht23.github.io/prateek-design-system/` — every token, every component live with controls, a theme switch and a sample home page.
 
 ---
 
@@ -54,15 +54,15 @@ Good for the portfolio and other static pages. Files load straight from this rep
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&family=Geist+Mono:wght@400&display=swap">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<your-username>/prateek-design-system@v1.0.0/tokens/tokens.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<your-username>/prateek-design-system@v1.0.0/components/bundle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/prateekbisht23/prateek-design-system@v1.0.0/tokens/tokens.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/prateekbisht23/prateek-design-system@v1.0.0/components/bundle.css">
 </head>
 <body>
   <div id="app"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/<your-username>/prateek-design-system@v1.0.0/components/bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/prateekbisht23/prateek-design-system@v1.0.0/components/bundle.js"></script>
   <script>
     const { Header, Status, Button } = window.Prateek;
     const h = React.createElement;
@@ -89,7 +89,7 @@ Components are on `window.Prateek`.
 Install from GitHub (no npm account needed):
 
 ```sh
-npm i github:<your-username>/prateek-design-system#v1.0.0
+npm i github:prateekbisht23/prateek-design-system#v1.0.0
 ```
 
 Import the styles once, at your app's entry (`main.jsx`, or `app/layout.tsx` in Next.js):
@@ -285,7 +285,7 @@ Quick search for leftovers: `grep -rnE "#[0-9a-fA-F]{3,6}\b|font-weight:\s*(600|
   git tag v1.1.0 && git push origin v1.1.0
   ```
 
-- To update a project: change the tag in its CDN links, or run `npm i github:<your-username>/prateek-design-system#v1.1.0`.
+- To update a project: change the tag in its CDN links, or run `npm i github:prateekbisht23/prateek-design-system#v1.1.0`.
 
 ---
 
